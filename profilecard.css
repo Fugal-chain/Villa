@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F35525;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Prompt", sans-serif;
+}
+.main{
+    width: 100%;
+    padding: 400px 200px;
+}
+.maincard{
+    /* height: 600px; */
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.maincard p{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.maincard ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 35px;
+    font-size: 20px;
+    list-style-type:none;
+}
+.maincard ul li{
+    margin-right: 50px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color:  black;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: #F35525;
+    border: none;
+    cursor: pointer;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+    background: url(profile.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 330px;
+    left: 800px;
+    border-radius: 25px;
+}
+.maincard h2{
+    font-family: "Poppins", sans-serif;
+}
+/* body {
+    background: linear-gradient(120deg, #f6d365, #fda085);
+  }
+   */
+header nav ul{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: space-around;
+}
+nav{
+    background-color: black;
+    padding: 1%;
+}
+.lessons ul{
+    display: inline-block;
+    text-align: left;
+    padding-left: 50px;
+    list-style: disc;
+}
+.lessons{
+    padding: 5%;
+}
+.lessons ul li{
+    margin-bottom: 1%;
+}
+h2{
+    text-transform: uppercase;
+}

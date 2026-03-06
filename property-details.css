@@ -1,0 +1,43 @@
+.info-table{
+    width: 25%;
+    height: 27%;
+    padding: 1% 1%;
+}
+.flex{
+    margin-top: 3%;
+    display: flex;
+    padding: 0% 15%;
+    justify-content: space-between;
+}
+.house-details{
+    padding: 0% 15%;
+    width: 67%;
+}
+.house-details button{
+    padding: .5%;
+    font-size: 18px;
+    background-color: rgba(243, 85, 37, .3);
+    /* opacity: .2; */
+    border: none;
+}
+.house-details h2{
+    margin-top: 1%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.house-details p{
+    font-size: 15px;
+    padding-top: 5%;
+}
+.Links{
+    /* padding: 15%; */
+    width: 130%;
+}
+.Links p{
+    font-size: 15px;
+}
+footer{
+    margin-top: 5%;
+    margin-bottom: none;
+    overflow-y: hidden;
+}
